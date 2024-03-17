@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*General color and fonts*/
+.container-1, .footer {
+background-color: #1f2937;
+color: #f9faf8;
+}
+
+/*Section 1*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+li {
+    list-style: none;
+}
+
+/*Section 2*/
+
+.container-2 {
+    background-color: blue;
+}
+
+/*Section 3*/
+
+.container-3 {
+    background-color: red;
+}
+
+/*Section 4*/
+
+.container-4 {
+    background-color: blue;
+}
+
+/*Section 5*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
