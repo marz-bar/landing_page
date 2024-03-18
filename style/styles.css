@@ -30,6 +30,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 34px;
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
 }
 
 .nav ul {
@@ -49,6 +52,8 @@ li {
     align-items: center;
     gap: 16px;
     padding: 5px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .sub-container-1-text {
